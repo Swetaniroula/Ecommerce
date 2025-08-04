@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./../assets/CloLogo.jpg";
 import Jewellery from "./../pages/Jewellery";
+import { IoCartOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
@@ -28,6 +29,9 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center">
+          <div className="text-2xl text-black mr-6">
+            <IoCartOutline />
+          </div>
           <button className="bg-black text-white px-6 py-3 mt-2 md:mt-1 whitespace-nowrap rounded-full ">
             Get Started
           </button>
